@@ -1,0 +1,236 @@
+.ancker{
+    text-decoration: none;
+    color: #FF5733;
+}
+/* .Back{
+    background-image: url('images/back_Img_Mor.jpeg');
+} */
+.backg{
+    margin-top: 250px;
+    font-size: 170px;
+    font-weight: bold !important;
+}
+.btn-secondary{
+    margin-left: 10px !important;
+    margin-top: 100px !important;
+    width: 150px !important;
+    height: 40px !important;
+    background-color: transparent !important;
+    border: 1px solid white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.btn-primary{
+    margin-left: 600px !important;
+    margin-top: 100px !important;
+    width: 150px !important;
+    height: 40px !important;
+    background-color: transparent !important;
+    border: 1px solid white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: white !important;
+    color: black !important;
+    border: none;
+}
+.btn-secondary:hover{
+    background-color: white !important;
+    color: black !important;
+    border: none;
+}
+
+/* card section */
+
+.card3 {
+    height: 345px;
+    width: 345px;
+    }
+
+.card-top3 {
+    position: relative;
+    height: 345px;
+    width: 345px;
+    float: left;
+    margin-left: 20px;
+
+
+}
+.card-top4 {
+    position: relative;
+    height: 575px;
+    width: 345px;
+    margin-left: 750px;
+    margin-top: -345px;
+
+
+}
+.card-top-inner4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
+.card-top-outer4 {
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    opacity: 0;
+}
+.card-top-outer4 h4 {
+    width: 80%;
+    padding: 7px;
+    margin: 10px auto;
+    color: white;
+    font-family: 'cantata one', serif;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.card-top4:hover .card-top-outer4 {
+    opacity: 1;
+}
+
+h4:hover {
+    color: #b10400;
+}
+
+.card-top-outer4 a {
+    border: 1px solid #b10400;
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: #b10400;
+}
+
+.card-top-inner3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+.card-top-outer3 {
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.card-top-outer3 h4 {
+    width: 20%;
+    padding: 7px;
+    margin: 10px auto;
+    margin-top: 130px;
+    color: white;
+    font-family: 'cantata one', serif;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s;
+    background-color: #b10400;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.card-top3:hover .card-top-outer3 {
+    opacity: 1;
+}
+
+.card-top-outer3 a {
+    border: 1px solid #b10400;
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: #b10400;
+}
+
+.Student{
+    text-decoration: none;
+    color: black;
+    text-align: justify !important;
+}
+.Student:hover{
+    text-decoration: underline;
+    color: black;
+
+}
+
+.btn-read{
+    border: 1px solid purple;
+    color: purple;
+    margin-left: 90px !important;
+    font-weight: 600;
+    transition: 0.7s;
+}
+.btn-read:hover{
+    background-color: purple;
+    color: white;
+}
+
+.Elephant{
+    transition: transform 0.3s ease-in-out;
+}
+.Elephant:hover{
+    transform: scale(1.1);
+}
+.line{
+    text-decoration: none;
+    color: white;
+}
+.line:hover{
+    text-decoration: underline;
+    color: white;
+}
+.last-btn{
+    border: 1px solid #4b0082;
+    background-color: white;
+    transition: 0.9s !important;
+}
+.last-btn:hover{
+    background-color: #4b0082;
+    color: white !important;
+}
+
+
+/* About pages */
+
+.mininav{
+    text-decoration: none;
+    color: #4b0082;
+    margin-top: 10px !important;
+}
+.mininav:hover{
+    color:#b10400;
+}
+.abcd:hover{
+    font-weight: bold;
+}
+.abcde:hover{
+    font-weight: bold;
+    color: #b10400 !important;
+}
+.abcdef:hover{
+    /* font-weight: bold; */
+    color: #4b0082 !important;
+}
+.abcdefg:hover{
+    font-weight: bold;
+    color: #77409d !important;
+    text-decoration: underline !important;
+}
